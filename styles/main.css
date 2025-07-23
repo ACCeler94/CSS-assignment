@@ -1,0 +1,41 @@
+:root {
+  /* Colors */
+  --background-color-dark: #1F2937;
+  --background-color-gray: #E5E7EB;
+  --background-color-blue: #3882F6;
+
+  --hero-main-text-white: #F9FAF8;
+  --hero-secondary-text-white: #E5E7EB;
+  --main-text-black: #1F2937;
+
+  --button-blue: #3882F6;
+
+  /* Typography */
+  --main-text-size: 16px;
+  --hero-main-text-size: 48px;
+  --hero-secondary-text-size: 18px;
+  --logo-text-size: 24px;
+  --info-header-text-size: 36px;
+  --quote-text-size: 36px;
+
+  --font-extra-bold: 800;
+  --font-light: 300;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Global styles */
