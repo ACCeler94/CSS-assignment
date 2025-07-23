@@ -1,0 +1,19 @@
+.testimonial {
+  background-color: var(--background-color-gray);
+  padding: 100px 10%;
+}
+
+.testimonial blockquote {
+  font-size: var(--quote-text-size);
+  font-style: italic;
+  font-weight: var(--font-light);
+}
+
+.testimonial blockquote cite {
+  display: block;
+  text-align: end;
+  margin-top: 50px;
+  font-size: 0.7em;
+  font-weight: var(--font-extra-bold );
+  font-style: normal;
+}
