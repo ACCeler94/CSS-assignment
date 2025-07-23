@@ -63,4 +63,17 @@ h1 {
   width: fit-content;
   padding: 15px 30px;
   border-radius: 15px;
+  color: var(--main-text-white);
+  background-color: transparent;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.price-enterprise__button:hover {
+  background-color: var(--main-text-white);
+  color: var(--background-color-dark);
+  transform: scale(1.05);
 }
