@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+  font-size: var(--info-header-text-size);
+  font-weight: var(--font-extra-bold);
+  margin: 30px 0 50px 0;
+}
+
+.prices-small {
+  padding: 30px 2.5%;
+}
+
+.prices-small__cards {
+  display: flex;
+  padding: 50px 0;
+  justify-content: center;
+}
+
+.price__card {
+  font-size: 1.25rem;
+  border: 2px solid var(--button-blue);
+  border-radius: 8px;
+  padding: 25px 50px;
+  max-width: 550px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.price__card-big {
+  position: relative;
+  background-color: #FFF;
+  z-index: 2;
+  margin: -10px -15px;
+}
+
+.bestseller-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.65em;
+  border-radius: 15px;
+  background-color: var(--button-blue);
+  color: #FFF;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.prices-enterprise {
+  background-color: var(--background-color-dark);
+  width: 100%;;
+  color: var(--main-text-white);
+  font-size: 1.25rem;
+  padding: 50px 75px;
+  margin: 50px 0;
+}
+
+.prices-enterprise h2 {
+  margin-bottom: 75px;
+}
+
+.price-enterprise__button {
+  display: block;
+  margin-top: 100px;
+  border: 2px solid var(--main-text-white);
+  width: fit-content;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
