@@ -7,6 +7,7 @@ h1 {
 
 .prices-small {
   padding: 30px 2.5%;
+  font-size: 1.25rem;
 }
 
 .prices-small__cards {
@@ -16,7 +17,6 @@ h1 {
 }
 
 .price__card {
-  font-size: 1.25rem;
   border: 2px solid var(--button-blue);
   border-radius: 8px;
   padding: 25px 50px;
@@ -58,7 +58,7 @@ h1 {
 
 .price-enterprise__button {
   display: block;
-  margin-top: 100px;
+  margin-top: 75px;
   border: 2px solid var(--main-text-white);
   width: fit-content;
   padding: 15px 30px;
