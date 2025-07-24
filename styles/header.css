@@ -1,0 +1,31 @@
+.header {
+  box-sizing: border-box;
+  background-color: var(--main-text-black);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.logo-text {
+  font-size: var(--logo-text-size);
+  color: var(--hero-main-text-white);
+  margin: 0;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 1.25rem;
+}
+
+
+.nav__link {
+  color: var(--hero-secondary-text-white);
+  font-size: var(--hero-secondary-text-size);
+  text-decoration: none;
+}
