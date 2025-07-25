@@ -1,0 +1,40 @@
+.hero {
+  height: 100vh;
+  background-color: var(--background-color-dark);
+  display: flex;
+  align-items: center;
+  padding-left: clamp(1%, 10%, 15%);
+  padding-right: clamp(1%, 15%, 20%);
+}
+
+.hero__title {
+  margin: 0;
+  font-size: var(--hero-main-text-size);
+  font-weight: var(--font-extra-bold);
+  color: var(--hero-main-text-white);
+}
+
+.hero__description {
+  margin: 0;
+  font-size: var(--hero-secondary-text-size);
+  color: var(--hero-secondary-text-white);
+}
+
+.hero__button {
+  padding: 8px 30px 8px 30px;
+  margin-top: 10px;
+  background-color: var(--button-blue);
+  color: var(--hero-secondary-text-white);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero__image {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  max-width: 100%;
+}
