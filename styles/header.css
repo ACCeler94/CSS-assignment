@@ -6,6 +6,8 @@
   align-items: center;
   padding-left: clamp(1%, 10%, 15%);
   padding-right: clamp(1%, 15%, 20%);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header a {
