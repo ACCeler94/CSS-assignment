@@ -28,6 +28,6 @@
 
 .nav__link {
   color: var(--secondary-text-white);
-  font-size: var(--hero-secondary-text-size);
+  font-size: var(--secondary-text-size);
   text-decoration: none;
 }
