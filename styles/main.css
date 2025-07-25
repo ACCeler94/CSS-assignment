@@ -131,3 +131,96 @@ a {
   font-weight: 400;
   margin: 0;
 }
+
+/* === About Page Styling === */
+
+.about__hero {
+  background-color: var(--background-color-gray);
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about__hero-content {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about__hero-text {
+  flex: 1 1 300px;
+}
+
+.about__hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: var(--font-extra-bold);
+  margin-bottom: 1rem;
+  color: var(--main-text-black);
+}
+
+.about__hero-text p {
+  font-size: 1rem;
+  color: var(--main-text-black);
+  line-height: 1.6;
+}
+
+.about__hero-image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.about__hero-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* === Workflow Section === */
+
+.about__process {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.about__process h2 {
+  font-size: 2rem;
+  font-weight: var(--font-extra-bold);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.about__process ul {
+  list-style-position: inside;
+  padding-left: 0;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* === What Makes Us Different Section === */
+
+.about__values {
+  background-color: var(--background-color-gray);
+  padding: 3rem 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.about__values h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--main-text-black);
+}
+
+.about__values p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: var(--main-text-black);
+}
