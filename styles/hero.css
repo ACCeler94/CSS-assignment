@@ -8,23 +8,24 @@
 }
 
 .hero__title {
+  text-align: left;
   margin: 0;
   font-size: var(--hero-main-text-size);
   font-weight: var(--font-extra-bold);
-  color: var(--hero-main-text-white);
+  color: var(--main-text-white);
 }
 
 .hero__description {
   margin: 0;
   font-size: var(--hero-secondary-text-size);
-  color: var(--hero-secondary-text-white);
+  color: var(--secondary-text-white);
 }
 
 .hero__button {
   padding: 8px 30px 8px 30px;
   margin-top: 10px;
   background-color: var(--button-blue);
-  color: var(--hero-secondary-text-white);
+  color: var(--secondary-text-white);
   border: none;
   border-radius: 8px;
   cursor: pointer;

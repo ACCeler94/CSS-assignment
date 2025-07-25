@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--main-text-black);
+  background-color: var(--background-color-dark);
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@
 
 .logo-text {
   font-size: var(--logo-text-size);
-  color: var(--hero-main-text-white);
+  color: var(--main-text-white);
   margin: 0;
 }
 
@@ -27,7 +27,7 @@
 
 
 .nav__link {
-  color: var(--hero-secondary-text-white);
+  color: var(--secondary-text-white);
   font-size: var(--hero-secondary-text-size);
   text-decoration: none;
 }
