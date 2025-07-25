@@ -12,7 +12,7 @@
 
 .logo-text {
   font-size: var(--logo-text-size);
-  color: var(--hero-main-text-white);
+  color: var(--main-text-white);
   margin: 0;
 }
 
@@ -25,7 +25,7 @@
 
 
 .nav__link {
-  color: var(--hero-secondary-text-white);
-  font-size: var(--hero-secondary-text-size);
+  color: var(--secondary-text-white);
+  font-size: var(--secondary-text-size);
   text-decoration: none;
 }
