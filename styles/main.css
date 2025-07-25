@@ -1,9 +1,9 @@
 
+@import './testimonial.css';
 @import './header.css';
 @import './hero.css';
 @import './pricing.css';
 @import './cards.css';
-
 
 @font-face {
   font-family: 'Roboto';
