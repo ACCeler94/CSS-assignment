@@ -1,4 +1,6 @@
+
 @import './header.css';
+@import './pricing.css';
 @import './cards.css';
 
 
@@ -22,8 +24,8 @@
   --background-color-gray: #E5E7EB;
   --background-color-blue: #3882F6;
 
-  --hero-main-text-white: #F9FAF8;
-  --hero-secondary-text-white: #E5E7EB;
+  --main-text-white: #F9FAF8;
+  --secondary-text-white: #E5E7EB;
   --main-text-black: #1F2937;
 
   --button-blue: #3882F6;
@@ -49,6 +51,7 @@
 
 body {
   margin: 0;
+  color: var(--main-text-black);
 }
 
 a {
