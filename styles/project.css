@@ -57,3 +57,40 @@ p {
 .btn:hover {
   background-color: #4165a0;
 }
+
+@media (max-widht: 1024) {
+  .project__card {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .project__wrapper {
+    padding: 20px 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects__intro h1 {
+    font-size: 1.8rem;
+  }
+
+  .project__card {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .projects__cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .projects__cta p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}

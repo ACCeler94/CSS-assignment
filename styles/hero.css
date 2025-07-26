@@ -91,3 +91,58 @@
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
+
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 5%;
+  }
+
+  .hero__content {
+    padding-right: 0;
+  }
+
+  .hero__title {
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    text-align: center;
+  }
+
+  .hero__description {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+  }
+
+   .hero__image {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    padding: 30px 4%;
+  }
+
+  .hero__title {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+
+  .herro__description {
+    font-size: 1rem;
+  }
+
+  .hero__button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .img {
+    max-width: 100%;
+  }
+}
