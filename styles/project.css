@@ -54,11 +54,6 @@ p {
   text-align: center;
 }
 
-.project__card:hover {
-  transform: scale(1.05);
-  transition: 0.25s ease-in-out;
-}
-
 .btn:hover {
   background-color: #4165a0;
 }
